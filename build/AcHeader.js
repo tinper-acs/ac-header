@@ -35,7 +35,7 @@ var propTypes = {
     backClick: _propTypes2["default"].func
 };
 var defaultProps = {
-    clsfix: 'nc-header',
+    clsfix: 'ac-header',
     className: '',
     icon: '',
     title: '',
@@ -43,13 +43,13 @@ var defaultProps = {
     backClick: function backClick() {}
 };
 
-var NcHeader = function (_Component) {
-    _inherits(NcHeader, _Component);
+var AcHeader = function (_Component) {
+    _inherits(AcHeader, _Component);
 
-    function NcHeader() {
+    function AcHeader() {
         var _temp, _this, _ret;
 
-        _classCallCheck(this, NcHeader);
+        _classCallCheck(this, AcHeader);
 
         for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
             args[_key] = arguments[_key];
@@ -60,7 +60,7 @@ var NcHeader = function (_Component) {
         }, _temp), _possibleConstructorReturn(_this, _ret);
     }
 
-    NcHeader.prototype.render = function render() {
+    AcHeader.prototype.render = function render() {
         var _props = this.props,
             clsfix = _props.clsfix,
             className = _props.className,
@@ -100,11 +100,11 @@ var NcHeader = function (_Component) {
         );
     };
 
-    return NcHeader;
+    return AcHeader;
 }(_react.Component);
 
 ;
-NcHeader.propTypes = propTypes;
-NcHeader.defaultProps = defaultProps;
-exports["default"] = NcHeader;
+AcHeader.propTypes = propTypes;
+AcHeader.defaultProps = defaultProps;
+exports["default"] = AcHeader;
 module.exports = exports['default'];

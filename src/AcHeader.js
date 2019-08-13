@@ -11,7 +11,7 @@ const propTypes = {
     backClick:PropTypes.func
 };
 const defaultProps = {
-    clsfix:'nc-header',
+    clsfix:'ac-header',
     className:'',
     icon:'',
     title:'',
@@ -19,7 +19,7 @@ const defaultProps = {
     backClick:()=>{}
 };
 
-class NcHeader extends Component {
+class AcHeader extends Component {
 
 
     backClick=()=>{
@@ -52,6 +52,6 @@ class NcHeader extends Component {
         )
     }
 };
-NcHeader.propTypes = propTypes;
-NcHeader.defaultProps = defaultProps;
-export default NcHeader;
+AcHeader.propTypes = propTypes;
+AcHeader.defaultProps = defaultProps;
+export default AcHeader;
