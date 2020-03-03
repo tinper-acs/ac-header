@@ -1,7 +1,7 @@
 .ac-header{
     display: flex;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 16px;
     background: #fff;
     height: 46px;
     line-height: 46px;
@@ -40,11 +40,18 @@
         }
     }
     &-btns{
-        .u-button-group{
-            margin-left: 8px;
-        }
         .u-button{
             margin-left: 8px;
         }
+        .u-button-group{
+            margin-left: 8px;
+            .u-button+.u-button,
+            .u-button+.u-button-group,
+            .u-button-group+.u-button,
+            .u-button-group+.v-group{
+                margin-left: -1px;
+            }
+        }
+        
     }
 }
