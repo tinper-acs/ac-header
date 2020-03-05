@@ -36,7 +36,7 @@
     .ac-header-back:hover {
       background-color: #e8e8e8; }
   .ac-header-btns .u-button {
-    margin-left: 8px; }
+    margin-left: 8px !important; }
   .ac-header-btns .u-button-group {
     margin-left: 8px; }
     .ac-header-btns .u-button-group .u-button + .u-button,

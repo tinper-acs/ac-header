@@ -35,13 +35,15 @@
         display: inline-block;
         line-height: 26px;
         margin-right: 4px;
+        min-width: 26px;
         &:hover{
             background-color: #e8e8e8;
         }
     }
     &-btns{
-        .u-button{
-            margin-left: 8px;
+        .ac-btns .ac-btns-item{
+            margin-left: 8px!important;
+            margin-right: 0!important;
         }
         .u-button-group{
             margin-left: 8px;
@@ -50,6 +52,10 @@
             .u-button-group+.u-button,
             .u-button-group+.v-group{
                 margin-left: -1px;
+            }
+            .ac-btns .ac-btns-item{
+                margin-left: 0!important;
+                margin-right: 0!important;
             }
         }
         
